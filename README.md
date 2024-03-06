@@ -2,6 +2,10 @@
  Go to the website**
  **https://sqlbolt.com/lesson/select_queries_with_constraints**
 
+# To download sql: 
+Go to the website:     
+
+**www.mysql.com**
 
 **#sql info:**
 

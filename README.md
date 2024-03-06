@@ -1,15 +1,15 @@
-#To practice sql for beginners:
- Go to the website 
+**#To practice sql for beginners:
+ Go to the website**
  **https://sqlbolt.com/lesson/select_queries_with_constraints**
 
 
-#sql info:
+**#sql info:**
 
       SQL stands for Structured Query Language
 SQL lets you access and manipulate databases
 SQL became a standard of the American National Standards Institute (ANSI) in 1986, and of the International Organization for Standardization (ISO) in 1987
 
-#sql can do:
+**#sql can do:**
 
     SQL can execute queries against a database
 SQL can retrieve data from a database

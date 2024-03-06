@@ -1,3 +1,8 @@
+#To practice sql for beginners:
+ Go to the website 
+ **https://sqlbolt.com/lesson/select_queries_with_constraints**
+
+
 #sql info:
 
       SQL stands for Structured Query Language

@@ -2,7 +2,7 @@
  Go to the website
  **https://sqlbolt.com/lesson/select_queries_with_constraints**
 
-# To download sql: 
+# To download Mysql: 
 Go to the website:     
 
 **www.mysql.com**

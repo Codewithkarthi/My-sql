@@ -3,5 +3,4 @@
 
 SELECT * FROM Products
 WHERE Price 
-BETWEEN 10 AND 20
-;
+BETWEEN 10 AND 20;

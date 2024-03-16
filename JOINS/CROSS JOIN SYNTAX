@@ -1,0 +1,4 @@
+CROSS JOIN Syntax
+SELECT column_name(s)
+FROM table1
+CROSS JOIN table2;

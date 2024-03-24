@@ -1,0 +1,10 @@
+ALTER TABLE - ADD Column
+To add a column in a table, use the following syntax:
+
+ALTER TABLE table_name
+ADD column_name datatype;
+
+question:Add a column of type DATE called Birthday.
+
+
+ALTER TABLE Persons ADD Birthday DATE;

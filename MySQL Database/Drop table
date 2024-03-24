@@ -1,0 +1,8 @@
+Syntax:
+
+DROP TABLE table_name;
+
+question:Write the correct SQL statement to delete a table called Persons.
+
+
+DROP TABLE Persons;

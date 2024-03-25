@@ -14,3 +14,6 @@ ALTER TABLE Orders
 ADD FOREIGN KEY (PersonID) REFERENCES Persons(PersonID);
 
 DROP a FOREIGN KEY Constraint:
+
+ALTER TABLE Orders
+DROP FOREIGN KEY FK_PersonOrder;

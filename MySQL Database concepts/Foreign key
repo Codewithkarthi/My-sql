@@ -1,0 +1,16 @@
+FOREIGN KEY on CREATE TABLE:
+
+CREATE TABLE Orders (
+    OrderID int NOT NULL,
+    OrderNumber int NOT NULL,
+    PersonID int,
+    PRIMARY KEY (OrderID),
+    FOREIGN KEY (PersonID) REFERENCES Persons(PersonID)
+);
+
+FOREIGN KEY on ALTER TABLE:
+
+ALTER TABLE Orders
+ADD FOREIGN KEY (PersonID) REFERENCES Persons(PersonID);
+
+DROP a FOREIGN KEY Constraint:

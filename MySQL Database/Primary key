@@ -8,11 +8,12 @@ CREATE TABLE Persons (
     PRIMARY KEY (ID)
 );
 
+PRIMARY KEY on ALTER TABLE:
 
-CREATE TABLE Persons (
-    ID int NOT NULL,
-    LastName varchar(255) NOT NULL,
-    FirstName varchar(255),
-    Age int,
-    CONSTRAINT PK_Person PRIMARY KEY (ID,LastName)
-);
+ALTER TABLE Persons
+ADD PRIMARY KEY (ID);
+
+DROP a PRIMARY KEY Constraint:
+
+ALTER TABLE Persons
+DROP PRIMARY KEY;

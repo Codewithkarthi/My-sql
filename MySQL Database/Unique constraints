@@ -1,0 +1,19 @@
+UNIQUE Constraint on CREATE TABLE:
+
+CREATE TABLE Persons (
+    ID int NOT NULL,
+    LastName varchar(255) NOT NULL,
+    FirstName varchar(255),
+    Age int,
+    CONSTRAINT UC_Person UNIQUE (ID,LastName)
+);
+
+UNIQUE Constraint on ALTER TABLE:
+
+ALTER TABLE Persons
+ADD CONSTRAINT UC_Person UNIQUE (ID,LastName);
+
+DROP a UNIQUE Constraint:
+
+ALTER TABLE Persons
+DROP INDEX UC_Person;
